@@ -34,11 +34,70 @@ nav {
 
 button {
     color: #fff;
-    padding: 8px 12px;
+    padding: 6px 22px;
     border-radius: 8px;
     outline: none;
+    font-size: 22px;
 }
 
 .submit {
     background-color: transparent;
+    border: 1px solid #fff;
+    font-weight: 100;
+}
+
+.sign-in {
+    background-color: #4C5FD5;
+    border: 1px solid #4C5FD5;
+    margin-left: 16px;
+    font-weight: 100;
+    padding: 6px 32px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #DADBF1;
+    padding-top: 80px;
+    padding-bottom: 115px;
+}
+
+.hero-content .title {
+    font-size: 80px;
+    margin-bottom: 16px;
+    letter-spacing: -4px;
+    font-weight: 400;
+}
+
+.search {
+    position: relative;
+    width: 80%;
+    height: 40px;
+    max-width: 720px;
+}
+
+.search input {
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: #000000 ;
+}
+
+.search input::placeholder {
+    font-size: 20px;
+    font-weight: 100;
+    opacity: 0.8;
+}
+
+.search .icon {
+    position: absolute;
+    top: 80%;
+    right: 10px;
+    cursor: pointer;
 }
